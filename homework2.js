@@ -72,50 +72,30 @@ console.log(S.toFixed(3));
 //Task 7
 let currentDay = new Date();
 let currentHour = currentDay.getHours();
-if (currentHour > 23 && currentHour < 5) {
+if (currentHour >= 23 && currentHour < 5) {
     alert("Доброї ночі");
 } else 
-if (currentHour > 5 && currentHour < 11) {
+if (currentHour >= 5 && currentHour < 11) {
     alert("Доброго ранку");
 } else
-if (currentHour > 11 && currentHour < 17) {
+if (currentHour >= 11 && currentHour < 17) {
     alert("Доброго дня");
 } else
-if (currentHour > 17 && currentHour < 23) {
+if (currentHour >= 17 && currentHour < 23) {
     alert("Доброго вечора");
 }
 
-let Time = new Date().getHours();
-switch(Time) {
-    case 23:
-    case 0o0:
-    case 1:
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-        alert("Доброї ночі");
-        break;
-    case 6:
-    case 7:
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-        alert("Доброго ранку");
-        break;
-    case 12:
-    case 13:
-    case 14:
-    case 15:
-    case 16:
-        alert("Доброго дня");
-        break;
-    case 17:
-    case 18:
-    case 19:
-    case 20:
-    case 21:
-    case 22:
-        alert("Доброго вечора");
+switch(true) {
+case (currentHour >= 23 && currentHour < 5):
+    alert("Доброї ночі");
+    break;
+case (currentHour >= 5 && currentHour < 11):
+    alert("Доброго ранку");
+    break;
+case (currentHour >= 11 && currentHour < 17):
+    alert("Доброго дня");
+    break;
+case (currentHour >= 17 && currentHour < 23):
+    alert("Доброї ночі");
+    break;
 }
