@@ -1,0 +1,19 @@
+{
+  "name": "js-for-ta-q1-2024",
+  "version": "1.0.0",
+  "description": "hw10",
+  "main": "homework10.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliiaPastukh/JavaScript-For-TA-Training-Chutchenko.git"
+  },
+  "author": "NC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliiaPastukh/JavaScript-For-TA-Training-Chutchenko/issues"
+  },
+  "homepage": "https://github.com/NataliiaPastukh/JavaScript-For-TA-Training-Chutchenko#readme"
+}
