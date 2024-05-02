@@ -37,11 +37,11 @@ checkCardNumber(cardNumber) ? console.log(`Your card number is correct`) : conso
 
 //Task 6
 function validateEmail2(email) {
-    let eRegex = /^(?![_-])(?!.*--)(\w\-)+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    let eRegex = /^[a-zA-Z0-9]+(?:[_-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+\.[a-zA-Z]{2,}$/;
     return eRegex.test(email);
   }
   email = "my_ma--il@gmail.com";
-  validateEmail2(email) ? console.log(`Your email is  correct`) : console.log(`Your email is not correct`);
+  validateEmail2(email) ? console.log(`Your email is correct`) : console.log(`Your email is not correct`);
 
 //Task 7
 function validateLogin(login){
