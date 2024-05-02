@@ -49,4 +49,4 @@ function validateLogin(login){
     return reGex.test(login);
 }
 console.log(validateLogin("ee1.1ret3"));
-console.log(/\d+\.\d+/.exec("ee1.1ret3"));
+console.log(/\d+\.\d+/g.exec("ee1.1ret3"));
