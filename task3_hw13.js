@@ -10,4 +10,3 @@ function getCircleArea(radius) {
 };
 
 module.exports = {getCircleLength, getCircleArea};
-//module.exports = getCircleArea;
