@@ -46,10 +46,10 @@ it ("Test Case: Наведення мишею на елемент", async functi
     await driver.findElement(By.css('#select-menu.option:nth-child(3)')).click();
     await driver.findElement(By.id('datepicker')).sendKeys('12/12/2020');
     await driver.findElement(By.className('btn btn-lg btn-primary')).click();
-    let formSubmitted =  await driver.findElement(By.className('alert alert-success'));
+    let formSubmitted =  await driver.wait(until.elementLocated(By.className('alert alert-success'));
     if (formSubmitted = true) {
         console.log("The form was successfully submitted!")
-    }
+    };
   });
 
   //Task 4
